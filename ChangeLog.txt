@@ -1,0 +1,78 @@
+////CodeShare/////Codename:DELTA/////ChangeLog/////
+
+Updates (v0.2) 31/01/15:
+
+-> Create an installer  ~ Pending
+	Install Directory -> Pending
+	dbinstall.php -> Pending
+
+-> HTML5
+	Update to standards -> In progress
+
+-> Migration 
+	v0.1->v1.0 -> In progress
+
+-> Archive v0.1
+	Move v0.1 into OLD -> Done
+
+-> Upgrade the old mysql connections to PDO
+	connect.php -> Done
+	cslink.php -> Done
+	view.php -> Done
+	
+-> Change Styles
+	index.php (textarea) -> In progress
+	Background-color -> In progress
+	
+-> Make a copy of the Text/Code in cslink.php rather than view.php
+	Move code -> Done
+	Covert into PDO -> Done 
+	
+-> Raw Text Viewer (NEW Feature)
+	view.php -> In progress
+	
+-> Email Code (and/or) Text (NEW Feature)
+	index.php -> In progress ~ Add Email Input Box
+	cslink.php -> In progress ~ Insert Email into DB 
+	view.php -> In progress ~ Add a resend function
+	NEW DB Structure -> Pending ~ Values(id. text, uid, email) 
+	
+Directory Structure {
+
+	/ {
+
+		index.php ~ Enter Text/Code to be shared 
+		cslink.php ~ Insert into DB
+		find.php ~ Find Text/Code with UID
+		view.php ~ View Text/Code and make a '.txt' copy in /tmp
+	
+			include {
+				
+					connect.php ~ Connect to DB using PDO
+					
+					}
+		
+		}
+	
+	}
+	
+	
+Initial v0.1:
+
+MYSQL Querying 
+Delete Feature (Pending)
+Character counter 
+
+
+Directory Structure {
+	
+	index.php ~ Enter Text/Code to be shared 
+	cslink.php ~ Insert into DB
+	find.php ~ Find Text/Code with UID
+	view.php ~ View Text/Code and make a '.txt' copy in /tmp
+	connect.php ~ Connect to DB using mysql_connect();
+	del.php ~ (Never Released Feature)  To delete Text/Code
+
+
+	} 
+	
