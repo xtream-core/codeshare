@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="cs.css">
 <title>YOURNAME - CodeShare</title>
 </head>
-<h2>Xdev - CodeShare</h2>
+<h2>YOURNAME - CodeShare</h2>
 <form method="post" action="cslink.php">
 <input disabled  maxlength="3" size="3" value="1000" id="counter">
 <div class="divs">
@@ -35,10 +35,5 @@ function textCounter(field,field2,maxlimit)
 <br />
 <input type="submit" value="Share your Code" class="button" />
 </form>
-<footer>
-<br />
-<p class="fot">Xdev - CodeShare: Powered by <a href="http://xsys.tk">Xsystems</a></p>
-<p class="wsite"><a href="http://xsys.tk">Xsystems © 2014 </a>
-</footer>
 </html>
 </html>
